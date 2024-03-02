@@ -1,0 +1,6 @@
+header ul li  {
+    list-style: none;
+    color: brown;
+    /* float: left; */
+    padding: 10px;
+}
