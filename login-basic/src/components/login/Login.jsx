@@ -4,10 +4,17 @@ let Login = () => {
         <>
             <p>Login Form</p>
             <form action="">
-            <label>Name: </label>
-                <input type="text" name="name" placeholder="enter name" />
-                <input type="text" name="number" placeholder="enter number" />
+            <div>
+                <label for='name'>Name: </label>
+                <input type="text" name="name" id='name'/>
+            </div>
+            <div>
+                <label for='number'>Number: </label>
+                <input type="text" name="number" id='number'/>
+            </div>
+            <div>
                 <input type="submit" value="save" />
+            </div>
             </form>
         </>
     )
